@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "8392395d-9a30-4cc3-b75f-db8c1cb515fb")
+	(uuid "de6aeca7-64e8-4988-acca-0cf04a2be87f")
 	(paper "A4")
 	(lib_symbols
 		(symbol "2pinmolex:2157601002"
@@ -1661,7 +1661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18484133-b596-44d1-ad8f-ed07838752f5")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR043"
 			(at 157.48 90.17 0)
 			(effects
 				(font
@@ -1711,27 +1711,27 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/41dcc568-047e-40c3-8917-993a0c1d8777"
-					(reference "#PWR042")
+					(reference "#PWR047")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/5284dedf-81b9-4455-a1ae-4e68003b13db"
-					(reference "#PWR019")
+					(reference "#PWR045")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/5e97d013-66fe-470c-accb-01dc7cf23fc6"
-					(reference "#PWR044")
-					(unit 1)
-				)
-				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/8980739a-e055-493d-bd80-b94c801de5e3"
-					(reference "#PWR032")
-					(unit 1)
-				)
-				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/b2304c8e-7f55-47b7-996b-0a7058ef6c5d"
 					(reference "#PWR049")
 					(unit 1)
 				)
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/8980739a-e055-493d-bd80-b94c801de5e3"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/b2304c8e-7f55-47b7-996b-0a7058ef6c5d"
+					(reference "#PWR053")
+					(unit 1)
+				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/fe386d5b-d6d2-4631-9499-27522be29692"
-					(reference "#PWR046")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -1747,7 +1747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b02ede5-d2ef-4cf0-9596-0e319542ee04")
-		(property "Reference" "U?"
+		(property "Reference" "U8"
 			(at 134.62 90.17 0)
 			(effects
 				(font
@@ -1804,27 +1804,27 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/41dcc568-047e-40c3-8917-993a0c1d8777"
-					(reference "U?")
+					(reference "U10")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/5284dedf-81b9-4455-a1ae-4e68003b13db"
-					(reference "U?")
+					(reference "U9")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/5e97d013-66fe-470c-accb-01dc7cf23fc6"
-					(reference "U?")
+					(reference "U11")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/8980739a-e055-493d-bd80-b94c801de5e3"
-					(reference "U?")
+					(reference "U8")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/b2304c8e-7f55-47b7-996b-0a7058ef6c5d"
-					(reference "U?")
+					(reference "U13")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/fe386d5b-d6d2-4631-9499-27522be29692"
-					(reference "U?")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -1840,7 +1840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66dc9792-435f-49e6-9476-89b651ac103b")
-		(property "Reference" "R?"
+		(property "Reference" "R21"
 			(at 113.03 106.6799 0)
 			(effects
 				(font
@@ -1894,27 +1894,27 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/41dcc568-047e-40c3-8917-993a0c1d8777"
-					(reference "R?")
+					(reference "R23")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/5284dedf-81b9-4455-a1ae-4e68003b13db"
-					(reference "R?")
+					(reference "R22")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/5e97d013-66fe-470c-accb-01dc7cf23fc6"
-					(reference "R?")
+					(reference "R24")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/8980739a-e055-493d-bd80-b94c801de5e3"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/b2304c8e-7f55-47b7-996b-0a7058ef6c5d"
-					(reference "R?")
+					(reference "R26")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/fe386d5b-d6d2-4631-9499-27522be29692"
-					(reference "R?")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -1930,7 +1930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7ea678e-88b9-42df-a112-6fb15c7c058d")
-		(property "Reference" "J?"
+		(property "Reference" "J5"
 			(at 184.15 93.9799 0)
 			(effects
 				(font
@@ -1986,27 +1986,27 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/41dcc568-047e-40c3-8917-993a0c1d8777"
-					(reference "J?")
+					(reference "J7")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/5284dedf-81b9-4455-a1ae-4e68003b13db"
-					(reference "J?")
+					(reference "J6")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/5e97d013-66fe-470c-accb-01dc7cf23fc6"
-					(reference "J?")
+					(reference "J8")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/8980739a-e055-493d-bd80-b94c801de5e3"
-					(reference "J?")
+					(reference "J5")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/b2304c8e-7f55-47b7-996b-0a7058ef6c5d"
-					(reference "J?")
+					(reference "J10")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/fe386d5b-d6d2-4631-9499-27522be29692"
-					(reference "J?")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2022,7 +2022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccd6d339-99fd-4365-90d6-ce0ba561f02c")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR044"
 			(at 157.48 125.73 0)
 			(effects
 				(font
@@ -2072,27 +2072,27 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/41dcc568-047e-40c3-8917-993a0c1d8777"
-					(reference "#PWR043")
+					(reference "#PWR048")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/5284dedf-81b9-4455-a1ae-4e68003b13db"
-					(reference "#PWR041")
+					(reference "#PWR046")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/5e97d013-66fe-470c-accb-01dc7cf23fc6"
-					(reference "#PWR045")
-					(unit 1)
-				)
-				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/8980739a-e055-493d-bd80-b94c801de5e3"
-					(reference "#PWR047")
-					(unit 1)
-				)
-				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/b2304c8e-7f55-47b7-996b-0a7058ef6c5d"
 					(reference "#PWR050")
 					(unit 1)
 				)
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/8980739a-e055-493d-bd80-b94c801de5e3"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/b2304c8e-7f55-47b7-996b-0a7058ef6c5d"
+					(reference "#PWR054")
+					(unit 1)
+				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/fe386d5b-d6d2-4631-9499-27522be29692"
-					(reference "#PWR048")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2108,7 +2108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d733022f-abc4-40bc-b08a-aa5b885cf2c9")
-		(property "Reference" "D?"
+		(property "Reference" "D5"
 			(at 160.02 93.6624 90)
 			(effects
 				(font
@@ -2162,23 +2162,27 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/41dcc568-047e-40c3-8917-993a0c1d8777"
-					(reference "D?")
+					(reference "D6")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/5284dedf-81b9-4455-a1ae-4e68003b13db"
-					(reference "D?")
+					(reference "D5")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/5e97d013-66fe-470c-accb-01dc7cf23fc6"
-					(reference "D?")
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/8980739a-e055-493d-bd80-b94c801de5e3"
+					(reference "D4")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/b2304c8e-7f55-47b7-996b-0a7058ef6c5d"
-					(reference "D?")
+					(reference "D9")
 					(unit 1)
 				)
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/fe386d5b-d6d2-4631-9499-27522be29692"
-					(reference "D?")
+					(reference "D8")
 					(unit 1)
 				)
 			)

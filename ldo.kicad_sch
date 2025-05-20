@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "4c5eedf1-0223-4750-8f01-713208c4a546")
+	(uuid "cb35adda-75e6-4b8e-8290-930f22f752a9")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -768,7 +768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e38f00b-7723-4fab-8ec0-64a63646fa1c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR022"
 			(at 134.62 114.3 0)
 			(effects
 				(font
@@ -818,7 +818,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/f4040f6c-cfda-4124-94c1-e2a6c2f7e4ba"
-					(reference "#PWR010")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -834,7 +834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "490c9982-6430-49d0-ae72-411f1ce41ac2")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR021"
 			(at 129.54 90.17 0)
 			(effects
 				(font
@@ -884,7 +884,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/f4040f6c-cfda-4124-94c1-e2a6c2f7e4ba"
-					(reference "#PWR09")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -900,7 +900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6771dc34-6bcd-42e5-9472-ecba09aac6b7")
-		(property "Reference" "C?"
+		(property "Reference" "C13"
 			(at 167.64 99.0599 0)
 			(effects
 				(font
@@ -954,7 +954,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/f4040f6c-cfda-4124-94c1-e2a6c2f7e4ba"
-					(reference "C?")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -970,7 +970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d792143-e3b3-422e-a02c-b63aab1086f3")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR024"
 			(at 163.83 114.3 0)
 			(effects
 				(font
@@ -1020,7 +1020,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/f4040f6c-cfda-4124-94c1-e2a6c2f7e4ba"
-					(reference "#PWR012")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1036,7 +1036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a977f048-a614-4cc8-99f2-04444ceb57ab")
-		(property "Reference" "C?"
+		(property "Reference" "C12"
 			(at 138.43 99.0599 0)
 			(effects
 				(font
@@ -1090,7 +1090,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/f4040f6c-cfda-4124-94c1-e2a6c2f7e4ba"
-					(reference "C?")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1106,7 +1106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfa6b5ee-de8a-4d10-8c71-4da486eabbf1")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR025"
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -1156,7 +1156,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/f4040f6c-cfda-4124-94c1-e2a6c2f7e4ba"
-					(reference "#PWR015")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1172,7 +1172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4596ffa-8b90-4200-9d92-0eb4d5b2c29c")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 149.86 87.63 0)
 			(effects
 				(font
@@ -1227,7 +1227,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/f4040f6c-cfda-4124-94c1-e2a6c2f7e4ba"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1243,7 +1243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb5d8916-9989-42ae-9ea4-bc5615dbacf6")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR023"
 			(at 149.86 114.3 0)
 			(effects
 				(font
@@ -1293,7 +1293,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/f4040f6c-cfda-4124-94c1-e2a6c2f7e4ba"
-					(reference "#PWR011")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

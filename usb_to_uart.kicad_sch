@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "5be1c343-803f-4256-a0df-2931d2173fc0")
+	(uuid "eed76576-15d0-4f79-9517-36aef7298779")
 	(paper "A4")
 	(lib_symbols
 		(symbol "CDSOT23-0502B:CDSOT23-0502B"
@@ -3615,7 +3615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03d4090a-7284-4eb4-ae08-2683997a749e")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 73.66 78.7399 90)
 			(effects
 				(font
@@ -3721,7 +3721,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3737,7 +3737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07d7465d-b78c-47b5-b660-fb1dedb7c7b9")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR014"
 			(at 100.33 156.21 0)
 			(effects
 				(font
@@ -3787,7 +3787,7 @@
 		(instances
 			(project ""
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "#PWR026")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3803,7 +3803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08f2a65e-4d18-4563-8506-fdb667de44a6")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR011"
 			(at 58.42 97.79 0)
 			(effects
 				(font
@@ -3853,7 +3853,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "#PWR01")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3869,7 +3869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "171c9291-903f-4977-b3dc-621d577cf910")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 191.77 121.92 90)
 			(effects
 				(font
@@ -3921,7 +3921,7 @@
 		(instances
 			(project ""
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3937,7 +3937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aee44a6-cdfb-4baf-a1e5-f69906a66e8a")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 210.82 126.9999 0)
 			(effects
 				(font
@@ -3997,7 +3997,7 @@
 		(instances
 			(project ""
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -4013,7 +4013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "210293be-0b2e-4140-93e9-fd2511709676")
-		(property "Reference" "C?"
+		(property "Reference" "C9"
 			(at 156.21 69.8499 0)
 			(effects
 				(font
@@ -4067,7 +4067,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "C?")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4083,7 +4083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25db99fc-4d8c-4cd6-83fe-a384ca8fa6aa")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 59.69 130.8099 0)
 			(effects
 				(font
@@ -4137,7 +4137,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4153,7 +4153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26a7c568-e62c-4364-aec8-e9372fab9966")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR09"
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -4203,7 +4203,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "#PWR013")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4219,7 +4219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29d69a9c-8d88-447e-b0e1-b582c104f698")
-		(property "Reference" "D?"
+		(property "Reference" "D3"
 			(at 104.14 80.6449 90)
 			(effects
 				(font
@@ -4276,7 +4276,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "D?")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4292,7 +4292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f12e9ab-e091-452e-8690-d838da246c1c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR019"
 			(at 201.93 41.91 0)
 			(effects
 				(font
@@ -4342,7 +4342,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "#PWR06")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4359,7 +4359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fbb7bd5-22c5-4dbc-ae96-38a206645ae6")
-		(property "Reference" "Q?"
+		(property "Reference" "Q2"
 			(at 210.82 143.5099 0)
 			(effects
 				(font
@@ -4419,7 +4419,7 @@
 		(instances
 			(project ""
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "Q?")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -4435,7 +4435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "368a5202-622b-4071-b417-31f392f24f5a")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR020"
 			(at 207.01 107.95 0)
 			(effects
 				(font
@@ -4485,7 +4485,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "#PWR07")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4501,7 +4501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "391bdf53-66f7-4ed2-a38f-0d0a3e07d780")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR012"
 			(at 87.63 130.81 0)
 			(effects
 				(font
@@ -4551,7 +4551,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "#PWR025")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4567,7 +4567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e83ee71-4df8-4683-b565-3be2b9bc3252")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 236.22 48.26 90)
 			(effects
 				(font
@@ -4619,7 +4619,7 @@
 		(instances
 			(project ""
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4635,7 +4635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fb1f31d-2964-4799-b95c-d6b26de97a80")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR013"
 			(at 97.79 102.87 0)
 			(effects
 				(font
@@ -4685,7 +4685,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "#PWR04")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4701,7 +4701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4273f7a7-fed9-432f-b87d-c258ec300315")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 87.63 78.7399 0)
 			(effects
 				(font
@@ -4755,7 +4755,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4771,7 +4771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56df7c32-f491-4c00-87de-2edef3799704")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 175.26 55.88 90)
 			(effects
 				(font
@@ -4823,7 +4823,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4839,7 +4839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58cad00b-7090-4735-9704-c1bf6607fccc")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 58.42 38.1 0)
 			(effects
 				(font
@@ -4930,7 +4930,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4946,7 +4946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e64bf45-2c8b-4b83-849d-070a55f3f076")
-		(property "Reference" "FB?"
+		(property "Reference" "FB1"
 			(at 95.1992 38.1 90)
 			(effects
 				(font
@@ -4998,7 +4998,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "FB?")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -5014,7 +5014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c45f667-957a-4c95-8b6a-a78fc265a81f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR017"
 			(at 163.83 87.63 0)
 			(effects
 				(font
@@ -5064,7 +5064,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "#PWR02")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5080,7 +5080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72baf787-96f9-4206-917e-5134513a6762")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 91.44 137.1599 0)
 			(effects
 				(font
@@ -5134,7 +5134,7 @@
 		(instances
 			(project ""
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5150,7 +5150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cf0ac34-3a13-483d-96f2-d031bea7feba")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR018"
 			(at 180.34 92.71 0)
 			(effects
 				(font
@@ -5200,7 +5200,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "#PWR03")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5216,7 +5216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7eadb058-cdc1-4035-8c98-54dde894d754")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 191.77 151.13 90)
 			(effects
 				(font
@@ -5268,7 +5268,7 @@
 		(instances
 			(project ""
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5284,7 +5284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8486a228-160e-4ecb-b3bc-a59388c842df")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR010"
 			(at 57.15 157.48 0)
 			(effects
 				(font
@@ -5334,7 +5334,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "#PWR014")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5350,7 +5350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cf79c74-7c29-4aa9-ad92-6a38eed1656c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR015"
 			(at 104.14 44.45 0)
 			(effects
 				(font
@@ -5400,7 +5400,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "#PWR05")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5415,7 +5415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa625c20-9d43-41ae-a358-43ac08ff1044")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 236.22 63.5 90)
 			(effects
 				(font
@@ -5467,7 +5467,7 @@
 		(instances
 			(project ""
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "R?")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5483,7 +5483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c37a227c-6a61-4a31-96ea-26ef08affa9b")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 60.96 143.8274 90)
 			(effects
 				(font
@@ -5537,7 +5537,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5553,7 +5553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3fdefe9-9892-4246-9518-4edfb8ff9cea")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 209.2041 45.72 0)
 			(effects
 				(font
@@ -5661,7 +5661,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5677,7 +5677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7ab7e2b-fb64-425b-912b-ea0e07303f05")
-		(property "Reference" "C?"
+		(property "Reference" "C11"
 			(at 184.15 77.4699 0)
 			(effects
 				(font
@@ -5731,7 +5731,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "C?")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5747,7 +5747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d28ec9ea-666c-4be0-9176-3ecb5de73cfc")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 113.03 44.45 90)
 			(effects
 				(font
@@ -5799,7 +5799,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5815,7 +5815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc58179c-1af7-45e8-bcb3-cd1775e414a7")
-		(property "Reference" "C?"
+		(property "Reference" "C10"
 			(at 167.64 69.8499 0)
 			(effects
 				(font
@@ -5869,7 +5869,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "C?")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5884,7 +5884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de8dc734-0826-47de-b51c-4f5be4575f4c")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 175.26 71.12 90)
 			(effects
 				(font
@@ -5936,7 +5936,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5952,7 +5952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec60f418-3842-4d5e-8178-a2ea785a4641")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 113.03 59.69 90)
 			(effects
 				(font
@@ -6004,7 +6004,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6020,7 +6020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3b4b6ed-048e-4658-9647-d404c0d45aad")
-		(property "Reference" "C?"
+		(property "Reference" "C8"
 			(at 104.14 137.1599 0)
 			(effects
 				(font
@@ -6074,7 +6074,7 @@
 		(instances
 			(project ""
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "C?")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6090,7 +6090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa1b5550-29a9-49e9-a668-ed4e4c38359a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR016"
 			(at 119.38 62.23 0)
 			(effects
 				(font
@@ -6140,7 +6140,7 @@
 		(instances
 			(project "aroma"
 				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9/2970e33a-928f-4cda-ba60-4fcf0c63e482"
-					(reference "#PWR08")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
