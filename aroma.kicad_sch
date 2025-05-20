@@ -1,0 +1,793 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "41d97073-34b5-4be3-afd3-c3d0ba6d78a9")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 163.83 71.12) (xy 163.83 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16fb47da-e523-4441-97e1-b3163e637dc5")
+	)
+	(wire
+		(pts
+			(xy 203.2 105.41) (xy 232.41 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efefb16-d062-4ffe-89cc-ecb6ff4d72a5")
+	)
+	(wire
+		(pts
+			(xy 203.2 113.03) (xy 232.41 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f55828-60e3-4d22-84d0-0538dfa0d375")
+	)
+	(wire
+		(pts
+			(xy 173.99 71.12) (xy 173.99 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215cdd9a-f8fd-41ef-a6a6-da71afb93182")
+	)
+	(wire
+		(pts
+			(xy 203.2 109.22) (xy 232.41 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef1eefd-991f-4ebe-bf6a-6bfb52f42647")
+	)
+	(wire
+		(pts
+			(xy 184.15 71.12) (xy 184.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c87f718-96c5-4d96-b5a5-448149f160a7")
+	)
+	(wire
+		(pts
+			(xy 203.2 101.6) (xy 232.41 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c759b84-2b3d-4b07-aeeb-8fb5256a6a42")
+	)
+	(wire
+		(pts
+			(xy 168.91 71.12) (xy 168.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5630721d-180f-4f53-9c9f-c12b5be539d1")
+	)
+	(wire
+		(pts
+			(xy 158.75 71.12) (xy 158.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd96120-5361-4ea9-b1c6-b9f2bb7549d3")
+	)
+	(wire
+		(pts
+			(xy 179.07 71.12) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c059661e-b0a4-49ce-891f-7eb3d61941ef")
+	)
+	(sheet
+		(at 232.41 97.79)
+		(size 25.4 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2970e33a-928f-4cda-ba60-4fcf0c63e482")
+		(property "Sheetname" "USB and UART"
+			(at 232.41 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_to_uart.kicad_sch"
+			(at 232.41 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" bidirectional
+			(at 232.41 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "146602d7-dc44-47c2-897c-a407173e8933")
+		)
+		(pin "IO0" bidirectional
+			(at 232.41 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bc5cabd5-748a-4231-beb2-f06b084db32a")
+		)
+		(pin "TXD" output
+			(at 232.41 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1c30b56f-2189-4aea-a8d0-3b7cee98c5fd")
+		)
+		(pin "RXD" input
+			(at 232.41 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "04f6c628-f7fc-4d8e-b6f2-c69774ab3236")
+		)
+		(instances
+			(project "aroma"
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 88.9)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41dcc568-047e-40c3-8917-993a0c1d8777")
+		(property "Sheetname" "FET3"
+			(at 31.75 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosfet.kicad_sch"
+			(at 31.75 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FET" input
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "458ead34-3049-4d34-9c27-2989ba2c3ab8")
+		)
+		(instances
+			(project "aroma"
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 69.85)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5284dedf-81b9-4455-a1ae-4e68003b13db")
+		(property "Sheetname" "FET2"
+			(at 31.75 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosfet.kicad_sch"
+			(at 31.75 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FET" input
+			(at 53.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd9063b1-278f-4974-91b8-03c2845e30e4")
+		)
+		(instances
+			(project "aroma"
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 107.95)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e97d013-66fe-470c-accb-01dc7cf23fc6")
+		(property "Sheetname" "FET4"
+			(at 31.75 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosfet.kicad_sch"
+			(at 31.75 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FET" input
+			(at 53.34 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5999b3db-b687-43eb-91a6-927120f42773")
+		)
+		(instances
+			(project "aroma"
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 29.21)
+		(size 104.14 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66ed5b99-4fe2-4033-9b49-2218e6df09f5")
+		(property "Sheetname" "Externals"
+			(at 98.3484 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "external.kicad_sch"
+			(at 203.7846 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" output
+			(at 158.75 71.12 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7aa13b3e-8173-4b74-ba95-00292a6d2df6")
+		)
+		(pin "D" output
+			(at 173.99 71.12 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b964e07-6c5a-40c6-84df-e69baab9980e")
+		)
+		(pin "C" output
+			(at 168.91 71.12 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "472bafcc-2f3a-48bb-a2a1-35fc06427ff9")
+		)
+		(pin "E" output
+			(at 179.07 71.12 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6b13149b-2711-4761-9f33-18abeb617eaf")
+		)
+		(pin "B" output
+			(at 163.83 71.12 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ffc23af-12ef-4d63-b99b-876af3f6900c")
+		)
+		(pin "H2O" output
+			(at 184.15 71.12 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "729111fd-e592-496c-9021-e53cb1538bb6")
+		)
+		(instances
+			(project "aroma"
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 97.79)
+		(size 102.87 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77a30f73-fb27-48d4-8a39-c331675e8731")
+		(property "Sheetname" "MCU"
+			(at 100.33 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_ldu.kicad_sch"
+			(at 100.33 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IO0" bidirectional
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0881091-eb32-4638-afa5-4c1c6ddcbd91")
+		)
+		(pin "MCU_EN" input
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb264f8c-e3c4-4d04-94c9-bcf3b8982ef8")
+		)
+		(pin "RXD0" input
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29a56abf-226f-4574-b560-df7106a0ee0f")
+		)
+		(pin "TXD0" output
+			(at 203.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26eacdf4-2f8f-4fb8-b4c7-49618db3f512")
+		)
+		(pin "IO36" input
+			(at 184.15 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ef555d32-3319-4ceb-842a-d0075f66bce2")
+		)
+		(pin "MOSI" output
+			(at 111.76 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3fc4b8d5-2b3b-46d7-9bcc-2a065a960c3e")
+		)
+		(pin "MISO" input
+			(at 115.57 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83bbeb83-7668-433c-9cac-aeca2c1f262b")
+		)
+		(pin "SCK" output
+			(at 119.38 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eeb1ee04-34db-41a2-97ad-7ed8b17f58c1")
+		)
+		(pin "CS" output
+			(at 123.19 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dc1e406e-4a60-4140-acc6-df2b1412919e")
+		)
+		(pin "IO39" input
+			(at 179.07 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7434d64c-8c9c-48eb-adc7-49c54fc4bf01")
+		)
+		(pin "IO34" input
+			(at 173.99 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4c932800-cd53-46e9-b61a-5985cbfe52bc")
+		)
+		(pin "IO33" input
+			(at 158.75 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ffb26e2c-7d8b-4e53-a4dc-43a7df9b5740")
+		)
+		(pin "IO35" input
+			(at 168.91 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "630854fe-4a1e-48cc-a534-a0c38a4122f1")
+		)
+		(pin "IO32" input
+			(at 163.83 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "acf014b3-f510-412a-9d69-0181b7fb70dd")
+		)
+		(instances
+			(project "aroma"
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 50.8)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8980739a-e055-493d-bd80-b94c801de5e3")
+		(property "Sheetname" "FET1"
+			(at 31.75 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosfet.kicad_sch"
+			(at 31.75 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FET" input
+			(at 53.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "debf6ae8-b6b9-49a5-98a4-93f948285c78")
+		)
+		(instances
+			(project "aroma"
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 148.59)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2304c8e-7f55-47b7-996b-0a7058ef6c5d")
+		(property "Sheetname" "FET6"
+			(at 31.75 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosfet.kicad_sch"
+			(at 31.75 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FET" input
+			(at 53.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d3c110bd-90ed-49af-bb6b-ce706dec9e4f")
+		)
+		(instances
+			(project "aroma"
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 232.41 127)
+		(size 25.4 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4040f6c-cfda-4124-94c1-e2a6c2f7e4ba")
+		(property "Sheetname" "LDO"
+			(at 232.41 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ldo.kicad_sch"
+			(at 232.41 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aroma"
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 128.27)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe386d5b-d6d2-4631-9499-27522be29692")
+		(property "Sheetname" "FET5"
+			(at 31.75 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosfet.kicad_sch"
+			(at 31.75 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FET" input
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4c566a7d-a879-4c67-943f-c0b3b11d78a7")
+		)
+		(instances
+			(project "aroma"
+				(path "/41d97073-34b5-4be3-afd3-c3d0ba6d78a9"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
