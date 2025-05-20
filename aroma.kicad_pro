@@ -227,7 +227,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -405,6 +405,10 @@
     [
       "66ed5b99-4fe2-4033-9b49-2218e6df09f5",
       "Externals"
+    ],
+    [
+      "a9cd5c70-79f3-4074-a76f-afa3a3607378",
+      "LCD Display"
     ],
     [
       "8980739a-e055-493d-bd80-b94c801de5e3",

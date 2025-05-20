@@ -8,4 +8,5 @@
   (lib (name "2pinmolex")(type "KiCad")(uri "${KIPRJMOD}/components/2pinmolex.kicad_sym")(options "")(descr ""))
   (lib (name "mosfet")(type "KiCad")(uri "${KIPRJMOD}/components/mosfet.kicad_sym")(options "")(descr ""))
   (lib (name "joystick")(type "KiCad")(uri "${KIPRJMOD}/components/joystick.kicad_sym")(options "")(descr ""))
+  (lib (name "screen")(type "KiCad")(uri "${KIPRJMOD}/components/screen.kicad_sym")(options "")(descr ""))
 )
