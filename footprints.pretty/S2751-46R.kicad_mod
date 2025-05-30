@@ -1,0 +1,163 @@
+(footprint "S2751-46R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.775 -1.685 0)
+		(layer "F.SilkS")
+		(uuid "59cb75d3-caf0-4687-a94f-bd107d45b661")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HARWIN_S2751-46R"
+		(at 8.76 1.685 0)
+		(layer "F.Fab")
+		(uuid "e47f65c2-c5d1-445a-b59f-15fa034040eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "433cc54a-d677-40ad-bc21-e9383f9fc3ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aacd592e-78cd-4528-a514-b4422d7c1c93")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31774a74-1486-4abe-9ecf-2a2d07a80a33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.35 -0.95)
+		(end -1.35 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "542658aa-48d4-4976-99b3-c2cfe3529a4b")
+	)
+	(fp_line
+		(start -1.35 0.95)
+		(end 1.35 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3b66af5-b8e5-469d-b4d4-e5bb522388d3")
+	)
+	(fp_line
+		(start 1.35 -0.95)
+		(end -1.35 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4cb0954a-4f75-45a6-ae88-d18d5e5894f7")
+	)
+	(fp_line
+		(start 1.35 0.95)
+		(end 1.35 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37878892-7ea9-44ac-aea4-0fee8118d5f7")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3248d387-f725-4647-acc1-78fb6faff4ce")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c77b990-93a8-403c-b693-df266d59ba78")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4853637-d3c2-49ff-b776-d36cd2b38d30")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d8c9708-6a17-430b-8e96-6b54ad0a6534")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2.2 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "4125c76f-6069-4cd0-8349-ec56e8a19f71")
+	)
+	(model "${KIPRJMOD}/footprints.pretty/S2751-46R.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
