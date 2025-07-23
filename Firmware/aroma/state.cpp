@@ -25,6 +25,9 @@ void setupStateControl() {
     pinMode(OUTPUT_PINS[i], OUTPUT);
     digitalWrite(OUTPUT_PINS[i], LOW); // start OFF
   }
+  for (int i = 0; i < 5; i++) {
+    lastPressed[i] = (digitalRead(SWITCH_PINS[i]) == LOW);
+  }
   pinMode(FAN_PIN, OUTPUT);
   digitalWrite(FAN_PIN, LOW);
 }
